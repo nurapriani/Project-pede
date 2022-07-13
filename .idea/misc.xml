@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/baca_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/beranda_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/bg1.xml" value="0.154" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/curhat_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/default_background.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_apa_pernikahan_dini.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_baca_.xml" value="0.197" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_baca_1.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_baca_2.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.144" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_beranda_1.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_bg_.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_curhat_.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_curhat_1.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_curhat_2.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_go.xml" value="0.165" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_ibcurhat.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_ibkomik1.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_ibkomik2.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_ibkomik3.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_ibkomik4.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_ibkomik5.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_ibvideo1.xml" value="0.159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_komik_.xml" value="0.196" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_komik_1.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_komik_2.xml" value="0.196" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_logo_pede.xml" value="0.142" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_next.xml" value="0.197" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_survey_.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_survey_2.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_video.xml" value="0.202" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_video_.xml" value="0.202" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_video_1.xml" value="0.189" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/ic_welcome_page_bg.xml" value="0.2115" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/komik_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/style_bottom_navbar.xml" value="0.1965" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/survey_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/video_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_on_boarding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_on_boarding2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_on_boarding3.xml" value="0.22" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_on_boarding4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_baca.xml" value="0.25" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_beranda.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_curhat.xml" value="0.1" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_home.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_komik.xml" value="0.5" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_survey.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_video.xml" value="0.22" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/menu/bottom_nav.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/menu/optionmenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/xml/navigation.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

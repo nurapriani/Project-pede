@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pede</string>
+    <string name="splashscreen_text">SELAMAT DATANG\ndi aplikasi PEDE (Pernikahan Dini),\nHal-hal yang perlu kamu ketahui \n dalam pernikahan dini</string>
+    <string name="title_activity_on_boarding">Leanback OnBoardingActivity</string>
+    <string name="onboarding">Fenomena Pernikahan Dini di Indonesia</string>
+    <string name="onboarding2">Dampak Pernikahan Dini</string>
+    <string name="onboarding3">Pencegahan Pernikahan Dini</string>
+    <string name="onboarding4">Remaja Sehat, Capai Impian dan Cita-cita</string>
+    <string name="fragmentbaca1">Apa itu Pernikahan Dini?</string>
+    <string name="fragmentbaca2">Pubertas Remaja</string>
+    <string name="fragmentbaca3">Pernikan Dini dan\nKesehatan Reproduksi</string>
+    <string name="fragmentbaca4">Bahaya Perilaku\nSex Bebas</string>
+    <string name="fragmentbaca5">Bahaya Pernikahan Dini</string>
+    <string name="fragmentcurhat">Curhat masalahmu disini</string>
+    <string name="fragmentsurvey">Klik link di atas</string>
+    <string name="survey">Survey</string>
+
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

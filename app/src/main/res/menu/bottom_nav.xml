@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""
+        android:id="@+id/beranda"
+        android:icon="@drawable/beranda_selector"
+        />
+    <item android:title=""
+        android:id="@+id/baca"
+        android:icon="@drawable/baca_selector"/>
+    <item android:title=""
+        android:id="@+id/komik"
+        android:icon="@drawable/komik_selector"/>
+    <item android:title="Video"
+        android:id="@+id/video"
+        android:icon="@drawable/video_selector"/>
+    <item android:title="Curhat"
+        android:id="@+id/curhat"
+        android:icon="@drawable/curhat_selector"/>
+
+</menu>

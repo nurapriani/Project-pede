@@ -4,10 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Curhat"
-    android:background="@drawable/ic_bgcurhat">
+    tools:context=".Curhat">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/backgroundImageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
     <ImageView
         android:id="@+id/logo"
         android:layout_width="230dp"
@@ -21,12 +25,13 @@
         android:id="@+id/ib_curhat"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:background="@drawable/ic_ibcurhat"
+        android:background="@drawable/ic_whatsapp"
         app:layout_constraintEnd_toEndOf="@id/logo"
         app:layout_constraintStart_toStartOf="@id/logo"
         app:layout_constraintTop_toBottomOf="@id/logo"
         tools:ignore="SpeakableTextPresentCheck" />
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/fragmentcurhat"
@@ -34,5 +39,14 @@
         app:layout_constraintStart_toStartOf="@id/ib_curhat"
         app:layout_constraintEnd_toEndOf="@id/ib_curhat"
         android:paddingTop="5dp"/>
+    <ImageView
+        android:id="@+id/ivCurhat"
+        android:layout_width="345dp"
+        android:layout_height="324dp"
+        android:src="@drawable/ic_ppl_"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

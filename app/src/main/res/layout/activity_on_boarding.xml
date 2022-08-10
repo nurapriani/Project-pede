@@ -4,8 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnBoardingActivity"
-    android:background="@drawable/ic_bg_">
+    tools:context=".OnBoardingActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
 
     <ImageButton
         android:id="@+id/btn_next"

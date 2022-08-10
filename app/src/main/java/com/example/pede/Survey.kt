@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import android.widget.ImageButton
+import android.widget.ImageView
+import com.bumptech.glide.Glide
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -21,6 +23,7 @@ class Survey : Fragment() {
     private var param2: String? = null
 
     private lateinit var surveyImageButton: ImageButton
+    private lateinit var imageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,6 +39,13 @@ class Survey : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_survey, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        imageView = view.findViewById(R.id.backgroundImageview) as ImageView
+        Glide.with(this).load(R.drawable.bgr_video).into(imageView)
+
     }
 
 

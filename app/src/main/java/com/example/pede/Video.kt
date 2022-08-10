@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.ImageView
+import com.bumptech.glide.Glide
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,6 +29,7 @@ class Video : Fragment() {
     private lateinit var videoImageButton3: ImageButton
     private lateinit var videoImageButton4: ImageButton
     private lateinit var videoImageButton5: ImageButton
+    private lateinit var imageView: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,6 +45,12 @@ class Video : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_video, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        imageView = view.findViewById(R.id.backgroundImageview) as ImageView
+        Glide.with(this).load(R.drawable.bgr_video).into(imageView)
     }
 
     companion object {

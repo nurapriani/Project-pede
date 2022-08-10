@@ -4,10 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Survey"
-    android:background="@drawable/ic_bgsurvey">
+    tools:context=".Survey">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/backgroundImageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
     <ImageView
         android:id="@+id/logo"
         android:layout_width="230dp"
@@ -20,8 +25,8 @@
     <ImageButton
         android:id="@+id/ib_survey"
         android:layout_width="88dp"
-        android:layout_height="121dp"
-        android:background="@drawable/ic_ibsurvey_"
+        android:layout_height="88dp"
+        android:background="@drawable/ic_ppnsrvy_"
         app:layout_constraintEnd_toEndOf="@id/logo"
         app:layout_constraintStart_toStartOf="@id/logo"
         app:layout_constraintTop_toBottomOf="@id/logo"

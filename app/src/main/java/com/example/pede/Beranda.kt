@@ -7,6 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.ImageView
+import androidx.viewbinding.ViewBindings
+import com.bumptech.glide.Glide
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,6 +30,7 @@ class Beranda : Fragment() {
     private lateinit var videoImageButton : ImageButton
     private lateinit var surveyImageButton : ImageButton
     private lateinit var curhatImageButton : ImageButton
+    private lateinit var imageView : ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,7 +53,11 @@ class Beranda : Fragment() {
         return inflater.inflate(R.layout.fragment_beranda, container, false)
     }
 
-
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        imageView = view.findViewById(R.id.backgroundImageview) as ImageView
+        Glide.with(this).load(R.drawable.bgr_).into(imageView)
+    }
 
     companion object {
         /**

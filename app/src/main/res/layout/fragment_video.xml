@@ -4,10 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Video"
-    android:background="@drawable/ic_welcome_page_bg">
+    tools:context=".Video">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/backgroundImageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
     <ImageView
     android:id="@+id/logo"
     android:layout_width="230dp"
@@ -21,7 +25,7 @@
         android:id="@+id/iv1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_video"
+        android:src="@drawable/ic_ison_video"
         app:layout_constraintTop_toBottomOf="@id/logo"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="55dp"
@@ -41,7 +45,7 @@
         android:id="@+id/iv2"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_video"
+        android:src="@drawable/ic_ison_video"
         app:layout_constraintTop_toBottomOf="@id/iv1"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="55dp"
@@ -61,7 +65,7 @@
         android:id="@+id/iv3"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_video"
+        android:src="@drawable/ic_ison_video"
         app:layout_constraintTop_toBottomOf="@id/iv2"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="55dp"
@@ -80,7 +84,7 @@
         android:id="@+id/iv4"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_video"
+        android:src="@drawable/ic_ison_video"
         app:layout_constraintTop_toBottomOf="@id/iv3"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="55dp"
@@ -99,7 +103,7 @@
         android:id="@+id/iv5"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_video"
+        android:src="@drawable/ic_ison_video"
         app:layout_constraintTop_toBottomOf="@id/iv4"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="55dp"

@@ -1,14 +1,13 @@
 package com.example.pede
 
-import android.content.Intent
+import android.media.Image
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.ImageView
-import androidx.viewbinding.ViewBindings
+import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 
 // TODO: Rename parameter arguments, choose names that match
@@ -25,21 +24,18 @@ class Beranda : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-    private lateinit var bacaImageButton : ImageButton
-    private lateinit var komikImageButton : ImageButton
-    private lateinit var videoImageButton : ImageButton
-    private lateinit var surveyImageButton : ImageButton
-    private lateinit var curhatImageButton : ImageButton
-    private lateinit var imageView : ImageView
+    lateinit var btn_baca : ImageButton
+    lateinit var btn_komik : ImageButton
+    lateinit var btn_video : ImageButton
+    lateinit var btn_survey : ImageButton
+    lateinit var btn_curhat : ImageButton
+    lateinit var imageView : ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
-            bacaImageButton.setOnClickListener {
-
-            }
         }
     }
 
@@ -57,6 +53,26 @@ class Beranda : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         imageView = view.findViewById(R.id.backgroundImageview) as ImageView
         Glide.with(this).load(R.drawable.bgr_).into(imageView)
+        btn_baca = view.findViewById(R.id.ib_baca) as ImageButton
+        btn_komik = view.findViewById(R.id.ib_komik) as ImageButton
+        btn_video = view.findViewById(R.id.ib_video) as ImageButton
+        btn_curhat = view.findViewById(R.id.ib_curhat) as ImageButton
+        btn_survey = view.findViewById(R.id.ib_survey) as ImageButton
+        btn_baca.setOnClickListener {
+            (activity as HomeActivity?)!!.openBaca()
+        }
+        btn_komik.setOnClickListener {
+            (activity as HomeActivity?)!!.openKomik()
+        }
+        btn_video.setOnClickListener {
+            (activity as HomeActivity?)!!.openVideo()
+        }
+        btn_curhat.setOnClickListener {
+            (activity as HomeActivity?)!!.openCurhat()
+        }
+        btn_survey.setOnClickListener {
+            (activity as HomeActivity?)!!.openSurvey()
+        }
     }
 
     companion object {

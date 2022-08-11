@@ -1,5 +1,7 @@
 package com.example.pede
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
@@ -44,7 +46,12 @@ class Survey : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         imageView = view.findViewById(R.id.backgroundImageview) as ImageView
+        surveyImageButton = view.findViewById(R.id.ib_survey) as ImageButton
         Glide.with(this).load(R.drawable.bgr_video).into(imageView)
+        surveyImageButton.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://bit.ly/PengetahuanPernikahanDini"))
+            startActivity(urlIntent)
+        }
 
     }
 

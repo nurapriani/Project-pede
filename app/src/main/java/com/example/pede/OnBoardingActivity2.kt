@@ -23,8 +23,7 @@ class OnBoardingActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
         button_prev.setOnClickListener {
-            val intent = Intent(this, OnBoardingActivity::class.java)
-            startActivity(intent)
+            finish()
         }
     }
 }

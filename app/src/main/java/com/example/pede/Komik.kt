@@ -1,5 +1,7 @@
 package com.example.pede
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -51,7 +53,33 @@ class Komik : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         imageView = view.findViewById(R.id.backgroundImageview) as ImageView
+        komikImageButton1 = view.findViewById(R.id.ib_komik1) as ImageButton
+        komikImageButton2 = view.findViewById(R.id.ib_komik2) as ImageButton
+        komikImageButton3 = view.findViewById(R.id.ib_komik3) as ImageButton
+        komikImageButton4 = view.findViewById(R.id.ib_komik4) as ImageButton
+        komikImageButton5 = view.findViewById(R.id.ib_komik5) as ImageButton
         Glide.with(this).load(R.drawable.bgr_).into(imageView)
+        komikImageButton1.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://komik.pendidikan.id/online/komik/sekolah_yes_nikah_muda_no_way/"))
+            startActivity(urlIntent)
+        }
+        komikImageButton2.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://komik.pendidikan.id/online/komik/hamil_diluar_nikah/"))
+            startActivity(urlIntent)
+        }
+        komikImageButton3.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://komik.pendidikan.id/online/komik/waspada_gambar_pornografi/"))
+            startActivity(urlIntent)
+        }
+        komikImageButton4.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://komik.pendidikan.id/online/komik/empat_sekawan_mengguncang_dunia/"))
+            startActivity(urlIntent)
+        }
+        komikImageButton5.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://komik.pendidikan.id/online/komik/jauhi_napza_jauhi_bahayanya/"))
+            startActivity(urlIntent)
+        }
+
     }
 
     companion object {

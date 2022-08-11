@@ -1,13 +1,13 @@
 package com.example.pede
 
-import android.media.Image
+import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.ImageView
+import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 
 // TODO: Rename parameter arguments, choose names that match
@@ -51,7 +51,32 @@ class Baca : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         imageView = view.findViewById(R.id.backgroundImageview) as ImageView
+        bacaImageButton1 = view.findViewById(R.id.ib_baca1)
+        bacaImageButton2 = view.findViewById(R.id.ib_baca2)
+        bacaImageButton3 = view.findViewById(R.id.ib_baca3)
+        bacaImageButton4 = view.findViewById(R.id.ib_baca4)
+        bacaImageButton5 = view.findViewById(R.id.ib_baca5)
         Glide.with(this).load(R.drawable.bgr_).into(imageView)
+        bacaImageButton1.setOnClickListener {
+            val intent = Intent(context, BacaActivity1::class.java)
+            startActivity(intent)
+        }
+        bacaImageButton2.setOnClickListener {
+            val intent = Intent(context, BacaActivity2::class.java)
+            startActivity(intent)
+        }
+        bacaImageButton3.setOnClickListener {
+            val intent = Intent(context, BacaActivity3::class.java)
+            startActivity(intent)
+        }
+        bacaImageButton4.setOnClickListener {
+            val intent = Intent(context, BacaActivity4::class.java)
+            startActivity(intent)
+        }
+        bacaImageButton5.setOnClickListener {
+            val intent = Intent(context, BacaActivity5::class.java)
+            startActivity(intent)
+        }
 
     }
 

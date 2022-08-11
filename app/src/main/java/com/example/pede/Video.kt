@@ -1,5 +1,7 @@
 package com.example.pede
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -50,7 +52,32 @@ class Video : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         imageView = view.findViewById(R.id.backgroundImageview) as ImageView
+        videoImageButton1 = view.findViewById(R.id.ib_video1) as ImageButton
+        videoImageButton2 = view.findViewById(R.id.ib_video2) as ImageButton
+        videoImageButton3 = view.findViewById(R.id.ib_video3) as ImageButton
+        videoImageButton4 = view.findViewById(R.id.ib_video4) as ImageButton
+        videoImageButton5 = view.findViewById(R.id.ib_video5) as ImageButton
         Glide.with(this).load(R.drawable.bgr_video).into(imageView)
+        videoImageButton1.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://www.youtube.com/watch?v=eamhuoKR95w"))
+            startActivity(urlIntent)
+        }
+        videoImageButton2.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://www.youtube.com/watch?v=VGxNZqDdLfI"))
+            startActivity(urlIntent)
+        }
+        videoImageButton3.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://www.youtube.com/watch?v=NiSNcEM4cOE"))
+            startActivity(urlIntent)
+        }
+        videoImageButton4.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://www.youtube.com/watch?v=Vb1e3bL1XlU"))
+            startActivity(urlIntent)
+        }
+        videoImageButton5.setOnClickListener {
+            val urlIntent = Intent("android.intent.action.VIEW", Uri.parse("https://www.youtube.com/watch?v=7kT0-YGkgYg"))
+            startActivity(urlIntent)
+        }
     }
 
     companion object {

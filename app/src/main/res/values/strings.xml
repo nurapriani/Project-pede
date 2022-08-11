@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Pede</string>
-    <string name="splashscreen_text">SELAMAT DATANG\ndi aplikasi PEDE (Pernikahan Dini),\nHal-hal yang perlu kamu ketahui \n dalam pernikahan dini</string>
+    <string name="splashscreen_text">SELAMAT DATANG\ndi aplikasi PEDE (Pernikahan Dini),\n
+        Hal-hal yang perlu kamu ketahui \n dalam pernikahan dini</string>
     <string name="title_activity_on_boarding">Leanback OnBoardingActivity</string>
     <string name="onboarding">Fenomena Pernikahan Dini di Indonesia</string>
     <string name="onboarding2">Dampak Pernikahan Dini</string>
@@ -14,6 +15,59 @@
     <string name="fragmentcurhat">Curhat masalahmu disini</string>
     <string name="fragmentsurvey">Klik link di atas</string>
     <string name="survey">Survey</string>
+    <string name="apaitupernikahadini1">Usia menikah menurut UU No.16/2019 adalah 19 tahun
+        \n(untuk laki-laki dan perempuan). Namun, idealnya usia
+        \npernikahan di Indonesia adalah 25 tahun untuk laki-laki
+        \ndan 21 tahun untuk perempuan.</string>
+    <string name="apaitupernikahadini2">Tahukah kamu? Indonesia merupakan negara dengan
+            \nangka pernikahan dini tertinggi kedepalan di dunia
+            \ndan berada di ranking ke-2 di ASEAN setelah Kamboja!.
+            \nSatu dari Sembilan perempuan menikah dibawah\n usia 18 tahun.</string>
+    <string name="apaitupernikahadini3">Data perkawinan anak dari Survei Sosial Ekonomi
+            \nNasional (SUSENAS) 2018 BPS tercatat angka
+            \nperkawinan anak di Indonesia terbilang cukup tinggi
+            \nyaitu mencapai 1,2 juta kejadian.</string>
+    <string name="apaitupernikahandini4">Penyebab Pernikahan Dini</string>
+    <string name="pubertasremaja1">Pernikahan dini banyak terjadi pada masa pubertas,
+        \nhal ini terjadi karena keingintahuan remaja sangat tinggi
+        \nterhadap perilaku seksual dengan lawan jenis.
+    </string>
+    <string name="pubertasremaja2">Pernikahan dini sering terjadi karena remaja
+        \nberfikir secara emosional untuk melakukan hubungan seksual
+        \ndan pernikahan, mereka berfikir telah saling mencintai
+        \ndan siap untuk menikah padahal secara mental belum
+        \nkuat untuk berumahtangga.</string>
+    <string name="pubertasremaja3">Selain itu faktor penyebab terjadinya pernikahan muda
+        \nadalah perjodohan orang tua, perjodohan ini sering
+        \nteljadi akibat putus sekolah dan akibat dari
+        \npermasalahan ekonomi.</string>
+    <string name="kesehatanreproduksi1">Secara fisik, pernikahan pada usia dini artinya pernikahan
+        \ndilakukan sebelum organ reproduksi benar-benar matang
+        \ndan siap untuk menjalankan fungsi reproduksi.</string>
+    <string name="kesehatanreproduksi2">Secara fisik, remaja perempuan yang mengalami
+        \nkehamilan dibawah usia 20 tahun maka akan rentang
+        \nmengalami gangguan pada pertumbuhan janinnya.
+        \nPermasalahan tersebut juga diikuti dengan adanya
+        \nkematian janin, rendahnya tingkat kecerdasan anak yang
+        \ndilahirkan.</string>
+    <string name="kesehatanreproduksi3">Dampak Negatif terhadap Kesehatan reproduksi:
+        \n1. Alat reproduksi belum siap menerima kehamilan sehingga
+        \ndapat menimbulkan berbagai komplikasi.
+        \n2. Kehamilan dini dan kurang terpenuhinya gizi bagi dirinya sendiri
+        \n3. Resiko anemia dan meningkatkan angka kejadian depresi.
+        \n4. Beresiko pada kematian usia dini.
+        \n5. Meningkatkan angka kematian ibu (AKI)
+        \n6. Resiko terkena penyakit menular seksual.</string>
+    <string name="bahayasexbebas1">Pergaulan bebas dan hamil pranikah menjadi potret
+        \nburam kehidupan remaja saat ini dan berakhir dengan
+        \npernikahan dini. Seks bebas (free sex), hamil di luar
+        \nnikah, aborsi, perkosaan, pelecehan menjadi salah satu
+        \npenyebab orang tua menikahkan anaknya sebelum waktunya.</string>
+    <string name="bahayasexbebas2">Perilaku sex bebas dipicu oleh media yang
+        \nberhubungan dengan hubungan seksual sangat mudah
+        \ndiakses, melahirkan anggapan para remaja  bahwa seks
+        \nadalah sesuatu yang bebas dilakukan oleh siapa saja,
+        \nkapan saja dan di mana saja.</string>
 
 
     <!-- Error messages -->

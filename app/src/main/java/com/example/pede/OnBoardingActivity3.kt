@@ -22,7 +22,7 @@ class OnBoardingActivity3 : AppCompatActivity() {
             startActivity(Intent(this,OnBoardingActivity4::class.java))
         }
         button_prev.setOnClickListener {
-            startActivity(Intent(this,OnBoardingActivity2::class.java))
+            finish()
         }
     }
 }

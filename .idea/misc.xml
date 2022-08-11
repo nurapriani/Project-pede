@@ -44,6 +44,11 @@
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/style_bottom_navbar.xml" value="0.1965" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/survey_selector.xml" value="0.1855" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/drawable/video_selector.xml" value="0.1855" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_baca1.xml" value="0.25" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_baca2.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_baca3.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_baca4.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_baca5.xml" value="0.17300724637681159" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_details.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
@@ -60,6 +65,8 @@
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/layout/fragment_video.xml" value="0.22" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/menu/bottom_nav.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/menu/optionmenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1545" />
+        <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1545" />
         <entry key="..\:/Users/Silvira Nur Apriani/AndroidStudioProjects/Pede/app/src/main/res/xml/navigation.xml" value="0.20416666666666666" />
       </map>
     </option>

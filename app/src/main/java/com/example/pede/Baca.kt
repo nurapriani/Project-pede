@@ -58,27 +58,24 @@ class Baca : Fragment() {
         bacaImageButton5 = view.findViewById(R.id.ib_baca5)
         Glide.with(this).load(R.drawable.bgr_).into(imageView)
         bacaImageButton1.setOnClickListener {
-            val intent = Intent(context, BacaActivity1::class.java)
-            startActivity(intent)
+            (activity as HomeActivity?)!!.openFragment(FragmentBaca1())
         }
         bacaImageButton2.setOnClickListener {
-            val intent = Intent(context, BacaActivity2::class.java)
-            startActivity(intent)
+            (activity as HomeActivity?)!!.openFragment(FragmentBaca2())
         }
         bacaImageButton3.setOnClickListener {
-            val intent = Intent(context, BacaActivity3::class.java)
-            startActivity(intent)
+            (activity as HomeActivity?)!!.openFragment(FragmentBaca3())
         }
         bacaImageButton4.setOnClickListener {
-            val intent = Intent(context, BacaActivity4::class.java)
-            startActivity(intent)
+            (activity as HomeActivity?)!!.openFragment(FragmentBaca4())
         }
         bacaImageButton5.setOnClickListener {
-            val intent = Intent(context, BacaActivity5::class.java)
-            startActivity(intent)
+            (activity as HomeActivity?)!!.openFragment(FragmentBaca5())
         }
 
     }
+
+
 
     companion object {
         /**

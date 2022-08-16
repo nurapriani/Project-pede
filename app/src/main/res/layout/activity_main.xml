@@ -19,7 +19,9 @@
         android:paddingBottom="60dp"
         android:text="@string/splashscreen_text"
         android:textAlignment="center"
-        android:textSize="16sp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="#10A1DB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

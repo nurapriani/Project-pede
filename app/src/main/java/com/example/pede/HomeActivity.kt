@@ -51,6 +51,13 @@ class HomeActivity : AppCompatActivity() {
         transaction.commit()
     }
 
+    fun openFragment(fragment: Fragment) {
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.frame_layout,fragment)
+        transaction.addToBackStack(null)
+        transaction.commit()
+    }
+
     fun openBaca() {
         bottomNav.selectedItemId = R.id.baca
     }

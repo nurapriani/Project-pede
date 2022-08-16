@@ -13,4 +13,5 @@ class BacaActivity1 : AppCompatActivity() {
         imageView = findViewById(R.id.backgroundImageview)
         Glide.with(this).load(R.drawable.bgr_).into(imageView);
     }
+
 }

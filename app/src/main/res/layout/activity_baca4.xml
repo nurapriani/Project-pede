@@ -12,66 +12,87 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:textSize="15sp"
-        android:textColor="#000000"
-        android:text="@string/bahayasexbebas1"/>
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tv1"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:textSize="15sp"
-        android:textColor="#000000"
-        android:text="@string/bahayasexbebas2"/>
-    <TextView
-        android:id="@+id/tv3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tv2"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:textSize="15sp"
-        android:textColor="#000000"
-        android:text="RESIKO SEKS AKTIF PRANIKAH"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"/>
 
-    <TextView
-        android:id="@+id/tv4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tv3"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:textSize="15sp"
-        android:textColor="#000000"
-        android:text="@string/resikoseks1"/>
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="@string/bahayasexbebas1"/>
 
-    <TextView
-        android:id="@+id/tv5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tv4"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:textSize="15sp"
-        android:textColor="#000000"
-        android:text="@string/resikoseks2"/>
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="@string/bahayasexbebas2"/>
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv2"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="RESIKO SEKS AKTIF PRANIKAH"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="@string/resikoseks1"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="@string/resikoseks2"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+
 
 
 

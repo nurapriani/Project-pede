@@ -1,12 +1,12 @@
-package com.example.pede
+package com.pede.pede
 
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.ImageView
-import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 
 // TODO: Rename parameter arguments, choose names that match
@@ -16,13 +16,14 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [FragmentBaca1.newInstance] factory method to
+ * Use the [FragmentBaca4.newInstance] factory method to
  * create an instance of this fragment.
  */
-class FragmentBaca1 : Fragment() {
+class FragmentBaca4 : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+
     lateinit var imageView: ImageView
     lateinit var imageButton: ImageButton
 
@@ -39,7 +40,7 @@ class FragmentBaca1 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_baca1, container, false)
+        return inflater.inflate(R.layout.fragment_baca4, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -57,8 +58,6 @@ class FragmentBaca1 : Fragment() {
         fm.popBackStack()
     }
 
-
-
     companion object {
         /**
          * Use this factory method to create a new instance of
@@ -66,12 +65,12 @@ class FragmentBaca1 : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment FragmentBaca1.
+         * @return A new instance of fragment FragmentBaca4.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            FragmentBaca1().apply {
+            FragmentBaca4().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

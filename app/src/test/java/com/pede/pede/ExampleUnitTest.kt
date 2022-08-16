@@ -1,4 +1,4 @@
-package com.example.pede
+package com.pede.pede
 
 import org.junit.Test
 

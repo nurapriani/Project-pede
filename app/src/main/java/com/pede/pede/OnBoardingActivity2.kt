@@ -1,4 +1,4 @@
-package com.example.pede
+package com.pede.pede
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

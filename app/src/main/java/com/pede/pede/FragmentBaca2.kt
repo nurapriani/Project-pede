@@ -1,4 +1,4 @@
-package com.example.pede
+package com.pede.pede
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -16,10 +16,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [FragmentBaca5.newInstance] factory method to
+ * Use the [FragmentBaca2.newInstance] factory method to
  * create an instance of this fragment.
  */
-class FragmentBaca5 : Fragment() {
+class FragmentBaca2 : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -39,7 +39,7 @@ class FragmentBaca5 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_baca5, container, false)
+        return inflater.inflate(R.layout.fragment_baca2, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -51,12 +51,11 @@ class FragmentBaca5 : Fragment() {
             onBackPressed()
         }
     }
+
     fun onBackPressed() {
         val fm = requireActivity().supportFragmentManager
         fm.popBackStack()
     }
-
-
 
     companion object {
         /**
@@ -65,12 +64,12 @@ class FragmentBaca5 : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment FragmentBaca5.
+         * @return A new instance of fragment FragmentBaca2.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            FragmentBaca5().apply {
+            FragmentBaca2().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

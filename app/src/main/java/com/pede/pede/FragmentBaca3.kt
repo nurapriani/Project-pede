@@ -1,4 +1,4 @@
-package com.example.pede
+package com.pede.pede
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
